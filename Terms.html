@@ -1,0 +1,155 @@
+<html><head><base href="https://www.luckyspin.com/" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LuckySpin Casino - Terms of Service</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  header {
+    background-color: #1a1a2e;
+    color: #ffd700;
+    text-align: center;
+    padding: 1rem;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  h2 {
+    color: #1a1a2e;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+  p {
+    margin-bottom: 15px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  .highlight {
+    background-color: #fffacd;
+    padding: 10px;
+    border-left: 4px solid #ffd700;
+    margin-bottom: 20px;
+  }
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1a1a2e;
+    color: #ffd700;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: none;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .back-to-top:hover {
+    opacity: 0.8;
+  }
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #1a1a2e;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>LuckySpin Casino - Terms of Service</h1>
+  </header>
+  
+  <div class="container">
+    <div class="highlight">
+      <p>Last updated: June 1, 2023</p>
+      <p>Please read these Terms of Service carefully before using LuckySpin Casino.</p>
+    </div>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>By accessing or using LuckySpin Casino, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you may not use our services.</p>
+
+    <h2>2. Eligibility</h2>
+    <p>You must be at least 18 years old to use LuckySpin Casino. By using our services, you represent and warrant that you meet all eligibility requirements.</p>
+
+    <h2>3. Account Registration</h2>
+    <p>To access certain features of LuckySpin Casino, you may be required to register for an account. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete.</p>
+
+    <h2>4. User Responsibilities</h2>
+    <ul>
+      <li>You are responsible for maintaining the confidentiality of your account and password.</li>
+      <li>You agree to accept responsibility for all activities that occur under your account.</li>
+      <li>You must not use LuckySpin Casino for any illegal or unauthorized purpose.</li>
+    </ul>
+
+    <h2>5. Gambling Responsibly</h2>
+    <p>LuckySpin Casino promotes responsible gambling. We provide tools and resources to help you manage your gambling activity. If you feel you may have a gambling problem, please seek help immediately.</p>
+
+    <h2>6. Deposits and Withdrawals</h2>
+    <p>All deposits and withdrawals are subject to our payment policies. We reserve the right to request verification documents before processing any withdrawal.</p>
+
+    <h2>7. Intellectual Property</h2>
+    <p>The content, organization, graphics, design, compilation, magnetic translation, digital conversion, and other matters related to LuckySpin Casino are protected under applicable copyrights, trademarks, and other proprietary rights.</p>
+
+    <h2>8. Limitation of Liability</h2>
+    <p>LuckySpin Casino shall not be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the services.</p>
+
+    <h2>9. Modifications to Terms</h2>
+    <p>We reserve the right to modify or replace these Terms of Service at any time. It is your responsibility to check these Terms periodically for changes.</p>
+
+    <h2>10. Governing Law</h2>
+    <p>These Terms shall be governed and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law provisions.</p>
+
+    <h2>11. Contact Us</h2>
+    <p>If you have any questions about these Terms, please contact us at <a href="mailto:support@luckyspin.com">support@luckyspin.com</a>.</p>
+  </div>
+
+  <a href="#" class="back-to-top" id="backToTop">↑ Top</a>
+
+  <footer>
+    <p>&copy; 2023 LuckySpin Casino. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Back to top button functionality
+    const backToTopButton = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTopButton.style.display = 'block';
+      } else {
+        backToTopButton.style.display = 'none';
+      }
+    });
+
+    backToTopButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Highlight sections when clicked
+    document.querySelectorAll('h2').forEach(heading => {
+      heading.addEventListener('click', () => {
+        heading.style.backgroundColor = '#fffacd';
+        setTimeout(() => {
+          heading.style.backgroundColor = 'transparent';
+        }, 1000);
+      });
+    });
+  </script>
+</body>
+</html>
